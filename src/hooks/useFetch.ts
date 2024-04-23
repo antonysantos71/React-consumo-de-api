@@ -24,4 +24,5 @@ export function useFetch<T = unknown>(url: string, options?: AxiosRequestConfig)
   }, [])
 
   return { data, isFetching }; 
+  
 }
